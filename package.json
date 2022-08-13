@@ -1,0 +1,26 @@
+{
+  "name": "desafio-iteris",
+  "version": "1.0.0",
+  "description": "desafio-iteris",
+  "main": "server.js",
+  "type": "module",
+   "scripts": {
+    "dev": "nodemon server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-Moretti/Desafio-Iteris.git"
+  },
+  "author": "Artur Moretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-Moretti/Desafio-Iteris/issues"
+  },
+  "homepage": "https://github.com/Artur-Moretti/Desafio-Iteris#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.2.6"
+    
+  }
+}
