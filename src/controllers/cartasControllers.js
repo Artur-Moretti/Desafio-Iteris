@@ -28,7 +28,7 @@ class CartaController {
        carta.save((err) =>{
 
         if(err){
-            res.status(500).send({mensagem: `${err.mensagem} - ${carta} falha ao cadastrar a carta`})
+            res.status(500).send({mensagem: `${err.mensagem} - falha ao cadastrar a carta`})
         } else{
             res.status(201).send(carta.toJSON())
         }
