@@ -1,6 +1,6 @@
 import express from "express";
 import PartidaController from "../controllers/partidasControllers.js";
-import resultado from "../controllers/torneio.js";
+import resultado from "../controllers/torneioController.js";
 
 const router = express.Router();
 
