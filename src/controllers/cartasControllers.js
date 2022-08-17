@@ -24,7 +24,7 @@ class CartaController {
 
    static cadastrarCarta = (req, res) =>{
        let carta = new cartas(req.body);
-       console.log(carta)
+    
        carta.save((err) =>{
 
         if(err){
