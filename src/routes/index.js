@@ -1,4 +1,5 @@
 import express from "express";
+import jogadores from "./jogadoresRoutes.js"
 import cartas from "./cartasRoutes.js";
 import partidas from "./partidaRoutes.js";
 
@@ -10,7 +11,8 @@ const routes = (app) => {
     app.use(
         express.json(),
         cartas,
-        partidas
+        partidas,
+        jogadores
     )
 }
 
