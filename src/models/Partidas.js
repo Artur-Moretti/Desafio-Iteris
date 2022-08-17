@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const partidaSchema = new mongoose.Schema({
     id:{type: String},
-    vencedo: {type: String},
+    vencedor: {type: String},
     perdedor: {type: String},
     detalhes:{
     hp: {type: Number},
